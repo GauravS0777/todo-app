@@ -1,0 +1,18 @@
+#appDiv{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+ul{
+    box-sizing: border-box;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: relative;
+    right: 15px;
+}

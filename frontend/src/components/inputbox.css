@@ -1,0 +1,26 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#inputArea{
+    width: 40%;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+}
+
+button{
+    padding-top: 5px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+}

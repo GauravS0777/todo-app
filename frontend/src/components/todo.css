@@ -1,0 +1,23 @@
+li{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    word-wrap: break-word;
+    margin: 10px;
+    position: relative;
+}
+
+.text{
+    display: inline;
+}
+
+p{
+    display: inline-block;
+    width: 90%;
+}
+
+.deleteBtn{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
