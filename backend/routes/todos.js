@@ -13,8 +13,8 @@ router.get("/", async (req, res) => {
 })
 
 router.post("/", async (req, res) => {
-    const { _id, text } = req.body;
-    newTodo = new Todo({ _id: _id, text: text });
+    const { text } = req.body;
+    newTodo = new Todo({ text: text });
 
     try{
         newTodo.save();
